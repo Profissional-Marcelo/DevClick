@@ -38,6 +38,7 @@ background-color: white;
 
 main .conjunto{
     display: flex;
+    justify-content: space-between;
 }
 
 main .conjunto > p{
@@ -47,7 +48,6 @@ text-align: center;
 main .conjunto > img{
     width: 200px;
     height: 200px;
-    margin-left: 100px;
 }
 
 
@@ -58,6 +58,11 @@ main #comeco{
 
 main .subtitulo{
     text-align: center;
+}
+
+main .juntar{
+    display: flex;
+    justify-content: center;
 }
 
 main li{
@@ -74,49 +79,35 @@ main h3{
 #iconVs{
     width: 100px;
     height: 100px;
-    margin-left: 200px;
-    margin-right: 100px;
 }
 
 #wDeveloper{
     width: 100px;
     height: 100px;
-    margin-left: 200px;
-    margin-right: 100px;
 }
 
 #omni{
     width: 100px;
     height: 100px;
-    margin-left: 200px;
-    margin-right: 100px;
 }
 
 #pt{
     width: 100px;
     height: 100px;
-    margin-left: 200px;
-    margin-right: 100px;
 }
 
 #ls{
     width: 107px;
     height: 100px;
     margin-top: 50px;
-    margin-left: 193px;
-    margin-right: 100px;
 }
 
 #photopea{
     width: 100px;
     height: 100px;
-    margin-left: 200px;
-    margin-right: 100px;
 }
 
 #emojipedia{
     width: 100px;
     height: 100px;
-    margin-left: 200px;
-    margin-right: 100px;
 }
