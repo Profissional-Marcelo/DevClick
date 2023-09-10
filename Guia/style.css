@@ -50,6 +50,10 @@ main .conjunto > img{
     height: 200px;
 }
 
+main .atualizacao {
+    text-align: center;
+}
+
 
 main #comeco{
     text-indent: 100px;
