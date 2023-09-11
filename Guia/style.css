@@ -27,6 +27,37 @@ text-align: center;
 font-family: var(--fonte-titulo);
 }
 
+
+
+header h1 > sup {
+    display: flex;
+    justify-content: end;
+    color: white;
+    font-size: 15px;
+}
+
+
+
+nav{
+    margin: 10px;
+    text-align: center;
+    background-color: rgb(10, 0, 98);
+    box-shadow: 5px 5px 15px rgb(13, 13, 13, 0.616);
+    border-radius: 10px;
+}
+
+nav a{
+    color: var(--cor02);
+    font-size: 30px;
+    margin: 0px 15px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: var(--cor02);
+    color: black;
+}
+
 main{
 background-color: white;
     border-radius: 10px;
@@ -55,7 +86,7 @@ main .atualizacao {
 }
 
 
-main #comeco{
+main .comeco{
     text-indent: 100px;
     text-decoration: underline;
 }
@@ -79,6 +110,12 @@ main h3{
     text-decoration: underline;
     color: var(--cor01)
 }
+
+#iconHandbrake{
+    width: 100px;
+    height: 100px;
+}
+
 
 #iconVs{
     width: 100px;
@@ -107,6 +144,11 @@ main h3{
 }
 
 #photopea{
+    width: 100px;
+    height: 100px;
+}
+
+#iconGimp{
     width: 100px;
     height: 100px;
 }
