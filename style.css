@@ -8,15 +8,16 @@
     --cor03: #920202;
     --cor04: #413244;
     --cor05: #014034;
-    --fonte-titulo: 'Antonio Sans', sans-serif;
+    --fonte-titulo: serif;
     --fonte-subTitulo: 'Open Sans m', sans-serif;
     --fonte-padrao: 'Open Sans', sans-serif;
     --sombra: 2px 2px 0px rgba(0, 0, 0, 0.459);
 }
 
 
+
 body{
-    background-color: var(--cor01);
+    background-image: linear-gradient(to top, var(--cor04), #31324a, var(--cor01) );
     background-size: cover;
     font-family: var(--fonte-padrao);
 }
@@ -24,10 +25,27 @@ body{
 body h1{
     color: var(--cor02);
 text-align: center;
-font-family: var(--fonte-titulo);
+text-shadow: 2px 2px 5px #716f66;
+font-size: 35px;
+}
+
+body h1, h2, h3{
+    font-family: serif;
+}
+
+body h2 {
+    font-size: 30px;
+}
+
+body h3{
+    font-size: 25px;
 }
 
 
+body p{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 header h1 > sup {
     display: flex;
@@ -39,7 +57,8 @@ header h1 > sup {
 
 
 nav{
-    margin: 10px;
+    width: 75%;
+    margin: auto;
     text-align: center;
     background-color: rgb(10, 0, 98);
     box-shadow: 5px 5px 15px rgb(13, 13, 13, 0.616);
@@ -63,7 +82,7 @@ background-color: white;
     border-radius: 10px;
     box-shadow: 5px 5px 15px rgb(13, 13, 13, 0.616);
     width: 70%;
-    padding: 100px;
+    padding: 50px;
     margin: auto;
 }
 
