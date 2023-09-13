@@ -1,6 +1,14 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+m:wght@300&family=Rufina&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;800;900&family=Playfair+Display:wght@500&display=swap');
+@font-face{
+    font-family: fonth3;
+    src: url('src/font/SaintCarellClean_PERSONAL_USE_ONLY.otf') format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 :root{
     --cor01: #4C4D71;
@@ -8,8 +16,9 @@
     --cor03: #920202;
     --cor04: #413244;
     --cor05: #014034;
-    --fonte-titulo: serif;
-    --fonte-subTitulo: 'Open Sans m', sans-serif;
+    --fonte-titulo: 'Playfair Display', serif;
+    --fonte-subTitulo: 'Montserrat', sans-serif;
+    --fonte-h3: 'fonth3', 'Open Sans', sans-serif
     --fonte-padrao: 'Open Sans', sans-serif;
     --sombra: 2px 2px 0px rgba(0, 0, 0, 0.459);
 }
@@ -20,25 +29,28 @@ body{
     background-image: linear-gradient(to top, var(--cor04), #31324a, var(--cor01) );
     background-size: cover;
     font-family: var(--fonte-padrao);
+
 }
 
+
 body h1{
-    color: var(--cor02);
+    font-family: var(--fonte-titulo);
+color: var(--cor02);
 text-align: center;
-text-shadow: 2px 2px 5px #716f66;
+text-shadow: 1px 1px 4px #716f66;
 font-size: 30px;
 }
 
-body h1, h2, h3{
-    font-family: serif;
-}
 
 body h2 {
     font-size: 25px;
+    font-family: var(--fonte-subTitulo);
+    color: #1d0122;
 }
 
 body h3{
     font-size: 20px;
+    font-family: fonth3;
 }
 
 
@@ -77,6 +89,10 @@ nav a:hover{
     color: black;
 }
 
+main a{
+    color: #8678ff;
+}
+
 main{
     border: 4px solid #0000a4;
 background-color: white;
@@ -85,6 +101,11 @@ background-color: white;
     width: 70%;
     padding: 50px;
     margin: auto;
+}
+
+main mark{
+    background-color: #f0e087;
+    color: #010781;
 }
 
 main .conjunto{
@@ -116,11 +137,6 @@ main .subtitulo{
     text-align: center;
 }
 
-main .juntar{
-    display: flex;
-    justify-content: center;
-}
-
 main li{
     text-decoration: underline;
 }
@@ -132,12 +148,12 @@ main h3{
     color: var(--cor01)
 }
 
-source .pequeno{
-width: 25px;
-height: 25px;
+main .container {
+    display: flex;
+    justify-content: space-around;
 }
 
-source .medio{
-    width: 50px;
-    height: 50px;
-    }
+main .container2 {
+    display: flex;
+    justify-content: center;
+}
