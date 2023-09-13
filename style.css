@@ -42,7 +42,7 @@ body h3{
 }
 
 
-body p{
+body p, h3 > li{
     font-size: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -78,9 +78,10 @@ nav a:hover{
 }
 
 main{
+    border: 4px solid #0000a4;
 background-color: white;
     border-radius: 10px;
-    box-shadow: 5px 5px 15px rgb(13, 13, 13, 0.616);
+    box-shadow: 6px 6px 16px rgb(13, 13, 13, 0.616);
     width: 70%;
     padding: 50px;
     margin: auto;
@@ -92,12 +93,13 @@ main .conjunto{
 }
 
 main .conjunto > p{
-text-align: center; 
+text-align: justify; 
 }
 
-main .conjunto > img{
-    width: 200px;
-    height: 200px;
+
+main .conjunto > img, a >  img{
+    width: 100px;
+    height: 100px;
 }
 
 main .atualizacao {
@@ -125,59 +127,17 @@ main li{
 
 
 main h3{
-    text-indent: 100px;
+    text-indent: 5vw;
     text-decoration: underline;
     color: var(--cor01)
 }
 
-#iconHandbrake{
-    width: 100px;
-    height: 100px;
+source .pequeno{
+width: 25px;
+height: 25px;
 }
 
-
-#iconVs{
-    width: 100px;
-    height: 100px;
-}
-
-#wDeveloper{
-    width: 100px;
-    height: 100px;
-}
-
-#omni{
-    width: 100px;
-    height: 100px;
-}
-
-#pt{
-    width: 100px;
-    height: 100px;
-}
-
-#ls{
-    width: 107px;
-    height: 100px;
-    margin-top: 50px;
-}
-
-#photopea{
-    width: 100px;
-    height: 100px;
-}
-
-#iconGimp{
-    width: 100px;
-    height: 100px;
-}
-
-#emojipedia{
-    width: 100px;
-    height: 100px;
-}
-
-#colorZilla{
-    width: 100px;
-    height: 100px;   
-}
+source .medio{
+    width: 50px;
+    height: 50px;
+    }
